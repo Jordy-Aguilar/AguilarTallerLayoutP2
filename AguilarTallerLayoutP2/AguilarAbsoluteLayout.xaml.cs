@@ -6,4 +6,9 @@ public partial class AguilarAbsoluteLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BotonAbsoluteLayout_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new AguilarGridLayout());
+    }
 }

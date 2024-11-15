@@ -9,5 +9,11 @@
         <Label Text="FlexLayout in Action" />
         <Button Text="Button" />
         <Label Text="Another Label" />
+
+        <Button
+x:Name="BotonFlexLayout"
+Text="Ir a la cuarta pagina (AbsoluteLayout)." 
+Clicked="BotonFlexLayout_Clicked"/>
+        
     </FlexLayout>
 </ContentPage>
