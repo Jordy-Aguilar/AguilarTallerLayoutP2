@@ -6,4 +6,9 @@ public partial class AguilarGridLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BotonGridLayout_Clicked_1(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new AguilarStackLayout());
+    }
 }

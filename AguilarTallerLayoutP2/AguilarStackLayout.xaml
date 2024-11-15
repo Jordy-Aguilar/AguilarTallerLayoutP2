@@ -3,10 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AguilarTallerLayoutP2.AguilarStackLayout"
              Title="AguilarStackLayout">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    
+        <VerticalStackLayout Margin="20,35,20,25">
+            <Label Text="The VericalStackLayout has its Margin property set, to control the rendering position of the VerticalStackLayout." />
+            <Label Text="The Padding property can be set to specify the distance between the VerticalStackLayout and its children." />
+            <Label Text="The Spacing property can be set to specify the distance between views in the VerticalStackLayout." />
+        </VerticalStackLayout>
+
+    
 </ContentPage>

@@ -4,29 +4,35 @@
              x:Class="AguilarTallerLayoutP2.AguilarGridLayout"
              Title="AguilarGridLayout">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50" />
+                    <RowDefinition Height="50" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Label Text="Column 0, Row 0"
+       WidthRequest="200" />
+                <Label Grid.Column="1"
+       Text="Column 1, Row 0" />
+                <Label Grid.Row="1"
+       Text="Column 0, Row 1" />
+                <Label Grid.Column="1"
+       Grid.Row="1"
+       Text="Column 1, Row 1" />
+
+
+            </Grid>
+
+            <Button
+x:Name="BotonGridLayout"
+Text="Ir a la segunda pagina (StackLayout)." 
+Clicked="BotonGridLayout_Clicked_1"/>
+
+
+        
     </VerticalStackLayout>
-    
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50" />
-            <RowDefinition Height="50" />
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto" />
-            <ColumnDefinition />
-        </Grid.ColumnDefinitions>
-        <Label Text="Column 0, Row 0"
-           WidthRequest="200" />
-        <Label Grid.Column="1"
-           Text="Column 1, Row 0" />
-        <Label Grid.Row="1"
-           Text="Column 0, Row 1" />
-        <Label Grid.Column="1"
-           Grid.Row="1"
-           Text="Column 1, Row 1" />
-    </Grid>
 </ContentPage>
