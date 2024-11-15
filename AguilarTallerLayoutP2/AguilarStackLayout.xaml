@@ -8,7 +8,13 @@
             <Label Text="The VericalStackLayout has its Margin property set, to control the rendering position of the VerticalStackLayout." />
             <Label Text="The Padding property can be set to specify the distance between the VerticalStackLayout and its children." />
             <Label Text="The Spacing property can be set to specify the distance between views in the VerticalStackLayout." />
-        </VerticalStackLayout>
+
+        <Button
+x:Name="BotonStackLayout"
+Text="Ir a la tercera pagina (FlexLayout)." 
+Clicked="BotonStackLayout_Clicked"/>
+            
+    </VerticalStackLayout>
 
     
 </ContentPage>

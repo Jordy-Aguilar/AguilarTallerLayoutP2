@@ -6,4 +6,9 @@ public partial class AguilarStackLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void BotonStackLayout_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new AguilarFlexLayout());
+    }
 }
