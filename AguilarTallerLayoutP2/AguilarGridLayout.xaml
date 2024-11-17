@@ -24,6 +24,8 @@
             x:Name="BotonGridLayout"
             Text="Ir a la segunda pagina (StackLayout)." 
             TextColor="Black"
+            FontAttributes="Bold"
+            FontSize="30"
             Clicked="BotonGridLayout_Clicked_1"/>
     </Grid>
 </ContentPage>
