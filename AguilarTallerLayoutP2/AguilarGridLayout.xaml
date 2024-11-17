@@ -20,8 +20,10 @@
         <Button
             Grid.Row="1"
             Grid.Column="1"
+            BackgroundColor="White"
             x:Name="BotonGridLayout"
             Text="Ir a la segunda pagina (StackLayout)." 
+            TextColor="Black"
             Clicked="BotonGridLayout_Clicked_1"/>
     </Grid>
 </ContentPage>
