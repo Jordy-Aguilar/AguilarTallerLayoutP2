@@ -28,7 +28,8 @@
                    HorizontalOptions="Center"
                    FontSize="20"
                    FontAttributes="Bold"
-                   TextColor="Red"/>
+                   TextColor="Red"
+                   FontFamily="Arial"/>
 
             <Button
                 x:Name="BotonStackLayout"

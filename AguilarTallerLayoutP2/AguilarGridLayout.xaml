@@ -28,7 +28,7 @@
             TextColor="Black"
             FontAttributes="Bold"
             FontFamily="Arial"
-            FontSize="30"
+            FontSize="20"
             Clicked="BotonGridLayout_Clicked_1"/>
     </Grid>
 </ContentPage>
