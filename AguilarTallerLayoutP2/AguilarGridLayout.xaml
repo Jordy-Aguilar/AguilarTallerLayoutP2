@@ -5,7 +5,6 @@
              Title="AguilarGridLayout">
 
     <Grid>
-       
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
@@ -15,15 +14,14 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <BoxView Grid.Row="0" Grid.Column="0" Color="Red" />
-        <BoxView Grid.Row="0" Grid.Column="1" Color="Green" />
-        <BoxView Grid.Row="1" Grid.Column="0" Color="Blue" />
-        <BoxView Grid.Row="1" Grid.Column="1" Color="Yellow" />
+        <BoxView Grid.Row="0" Grid.Column="0" Color="Purple" />
+        <BoxView Grid.Row="0" Grid.Column="1" Color="Black" />
+        <BoxView Grid.Row="1" Grid.Column="0" Color="Red" />
         <Button
-        x:Name="BotonGridLayout"
-        Text="Ir a la segunda pagina (StackLayout)." 
-        Clicked="BotonGridLayout_Clicked_1"/>
+            Grid.Row="1"
+            Grid.Column="1"
+            x:Name="BotonGridLayout"
+            Text="Ir a la segunda pagina (StackLayout)." 
+            Clicked="BotonGridLayout_Clicked_1"/>
     </Grid>
 </ContentPage>
-
-
