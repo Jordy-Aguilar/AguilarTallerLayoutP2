@@ -5,13 +5,23 @@
              Title="Jordy Aguilar (StackLayout)">
     
         <VerticalStackLayout Margin="20,35,20,25">
-            <Label Text="Pagina con Stack Layout" />
-            <Label Text="Jordy Aguilar" />
+            <Label Text="Pagina usando StackLayout" 
+                   FontSize="30"
+                   FontFamily="Arial"
+                   FontAttributes="Bold"
+                   TextColor="Black"/>
+            <Label Text="Jordy Aguilar" 
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="#FF1493"
+                   FontFamily="Arial"/>
             <Label Text="17 de noviembre del 2024" />
 
         <Button
 x:Name="BotonStackLayout"
 Text="Siguiente Pagina" 
+TextColor="Black"
+BackgroundColor="green"
 Clicked="BotonStackLayout_Clicked"/>
             
     </VerticalStackLayout>

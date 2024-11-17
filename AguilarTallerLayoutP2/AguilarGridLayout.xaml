@@ -16,7 +16,7 @@
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
 
-        <BoxView Grid.Row="0" Grid.Column="0" Color="Purple" />
+        <BoxView Grid.Row="0" Grid.Column="0" Color="#FF1493" />
         <BoxView Grid.Row="0" Grid.Column="1" Color="Black" />
         <BoxView Grid.Row="1" Grid.Column="0" Color="Red" />
         <Button
