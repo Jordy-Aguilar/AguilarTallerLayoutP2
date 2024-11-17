@@ -2,16 +2,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AguilarTallerLayoutP2.AguilarStackLayout"
-             Title="AguilarStackLayout">
+             Title="Jordy Aguilar (StackLayout)">
     
         <VerticalStackLayout Margin="20,35,20,25">
-            <Label Text="The VericalStackLayout has its Margin property set, to control the rendering position of the VerticalStackLayout." />
-            <Label Text="The Padding property can be set to specify the distance between the VerticalStackLayout and its children." />
-            <Label Text="The Spacing property can be set to specify the distance between views in the VerticalStackLayout." />
+            <Label Text="Pagina con Stack Layout" />
+            <Label Text="Jordy Aguilar" />
+            <Label Text="17 de noviembre del 2024" />
 
         <Button
 x:Name="BotonStackLayout"
-Text="Ir a la tercera pagina (FlexLayout)." 
+Text="Siguiente Pagina" 
 Clicked="BotonStackLayout_Clicked"/>
             
     </VerticalStackLayout>
