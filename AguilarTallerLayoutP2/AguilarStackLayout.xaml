@@ -19,9 +19,14 @@
 
         <Button
 x:Name="BotonStackLayout"
-Text="Siguiente Pagina" 
-TextColor="Black"
-BackgroundColor="green"
+Text="Siguiente Pagina"
+FontAttributes="Bold"
+FontSize="30"
+FontFamily="Arial"
+TextColor="White"
+BackgroundColor="Black"
+BorderColor="#FF1493"
+BorderWidth="2"
 Clicked="BotonStackLayout_Clicked"/>
             
     </VerticalStackLayout>
