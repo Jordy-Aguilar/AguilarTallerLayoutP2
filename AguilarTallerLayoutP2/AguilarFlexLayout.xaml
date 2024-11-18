@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AguilarTallerLayoutP2.AguilarFlexLayout"
-             Title="AguilarFlexLayout">
+             Title="Jordy Aguilar (Flex)">
     <FlexLayout Direction="Column"
             AlignItems="Center"
             JustifyContent="SpaceEvenly">
