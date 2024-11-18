@@ -9,48 +9,50 @@
                 JustifyContent="Center">
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
             <Button ImageSource="thumb_1920_1343747.png" 
-                    WidthRequest="250" 
-                    HeightRequest="250" 
+                    WidthRequest="300" 
+                    HeightRequest="300" 
                     VerticalOptions="Center"
-                    Margin="10,0,0,10"
+                    Margin="10,0,0,0"
                     Clicked="BotonFlexLayout_Clicked"
                     BackgroundColor="Transparent"/>
             <Label Text="Jordy" 
                    VerticalOptions="Center" 
-                   TextColor="White" 
+                   TextColor="Red" 
+                   FontSize="30"
                    FontFamily="Arial" 
                    FontAttributes="Bold"/>
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
             <Button ImageSource="thumb_1920_605592.png" 
-                    WidthRequest="250" 
-                    HeightRequest="250" 
+                    WidthRequest="300" 
+                    HeightRequest="300" 
                     VerticalOptions="Center"
-                    Margin="10,0,0,10"
+                    Margin="10,0,0,0"
                     Clicked="BotonFlexLayout_Clicked"
                     BackgroundColor="Transparent"/>
             <Label Text="Aguilar" 
                    VerticalOptions="Center" 
-                   TextColor="White" 
-                   FontFamily="Arial" 
+                   TextColor="red" 
+                   FontFamily="Arial"
+                   FontSize="30"
                    FontAttributes="Bold"/>
         </StackLayout>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
             <Button ImageSource="thumb_1920_1327390.png" 
-                    WidthRequest="250" 
-                    HeightRequest="250" 
+                    WidthRequest="300" 
+                    HeightRequest="300" 
                     VerticalOptions="Center"
-                    Margin="10,0,0,10"
+                    Margin="10,0,0,0"
                     Clicked="BotonFlexLayout_Clicked"
                     BackgroundColor="Transparent"/>
             <Label Text="Layouts" 
                    VerticalOptions="Center" 
-                   Padding="10,0"
-                   TextColor="White" 
+                   TextColor="red" 
+                   FontSize="30"
                    FontFamily="Arial" 
                    FontAttributes="Bold"/>
         </StackLayout>
     </FlexLayout>
-</ContentPage>
+</ContentPage>      
