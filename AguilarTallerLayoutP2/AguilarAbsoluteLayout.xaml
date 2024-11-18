@@ -15,13 +15,13 @@
             <Image Source="https://images2.alphacoders.com/120/thumb-1920-1209635.jpg" 
                    HeightRequest="200" Margin="0,10"/>
 
-           
-            <Label Text="Carrera Profesional
-            Sporting de Lisboa: Ronaldo comenzó su carrera profesional en el Sporting de Lisboa, donde rápidamente llamó la atención por su habilidad y talento.
 
-            Manchester United (2003-2009): En 2003, se unió al Manchester United en la Premier League inglesa. Durante su tiempo en el club, ganó tres títulos de la Premier League, una Liga de Campeones de la UEFA, y su primer Balón de Oro en 2008.
+            <Label Text="Carrera Profesional "/>
+            <Label Text="Sporting de Lisboa: Ronaldo comenzó su carrera profesional en el Sporting de Lisboa, donde rápidamente llamó la atención por su habilidad y talento." />
 
-            Real Madrid (2009-2018): Ronaldo se trasladó al Real Madrid en 2009 por una cifra récord en ese momento. Con el Real Madrid, ganó cuatro Ligas de Campeones de la UEFA, dos títulos de La Liga, y cuatro Balones de Oro más. Se convirtió en el máximo goleador de la historia del club."
+            <Label Text="Manchester United (2003-2009): En 2003, se unió al Manchester United en la Premier League inglesa. Durante su tiempo en el club, ganó tres títulos de la Premier League, una Liga de Campeones de la UEFA, y su primer Balón de Oro en 2008."/>
+
+            <Label Text="Real Madrid (2009-2018): Ronaldo se trasladó al Real Madrid en 2009 por una cifra récord en ese momento. Con el Real Madrid, ganó cuatro Ligas de Campeones de la UEFA, dos títulos de La Liga, y cuatro Balones de Oro más. Se convirtió en el máximo goleador de la historia del club."
                    FontSize="14"
                    LineHeight="1.5" />
 
@@ -29,12 +29,12 @@
             <Image Source="https://images7.alphacoders.com/134/thumb-1920-1340453.jpeg" 
                    HeightRequest="200" Margin="0,10" />
 
-         
-            <Label Text="Juventus (2018-2021): En 2018, Ronaldo se unió a la Juventus en la Serie A italiana. Ayudó al equipo a ganar dos títulos de la Serie A y fue el máximo goleador de la liga en la temporada 2020-2021.
 
-            Manchester United (2021-2022): Ronaldo regresó al Manchester United en 2021. Aunque tuvo un impacto significativo, su tiempo en el club fue relativamente corto.
+            <Label Text="Juventus (2018-2021): En 2018, Ronaldo se unió a la Juventus en la Serie A italiana. Ayudó al equipo a ganar dos títulos de la Serie A y fue el máximo goleador de la liga en la temporada 2020-2021." />
 
-            \nAl Nassr (2023-Presente): En 2023, Cristiano Ronaldo firmó con el club Al Nassr de Arabia Saudita, marcando una nueva etapa en su carrera."
+            <Label Text="Manchester United (2021-2022): Ronaldo regresó al Manchester United en 2021. Aunque tuvo un impacto significativo, su tiempo en el club fue relativamente corto." />
+
+            <Label Text="Al Nassr (2023-Presente): En 2023, Cristiano Ronaldo firmó con el club Al Nassr de Arabia Saudita, marcando una nueva etapa en su carrera."
                    FontSize="14"
                    LineHeight="1.5" />
 
@@ -42,11 +42,11 @@
             <Image Source="https://images3.alphacoders.com/843/thumb-1920-843799.jpg" 
                    HeightRequest="200" Margin="0,10" />
 
-     
-            <Label Text="Logros y Reconocimientos
-            Balón de Oro: Ha ganado el Balón de Oro en cinco ocasiones (2008, 2013, 2014, 2016, 2017).
-            Champions League: Ha ganado la Liga de Campeones de la UEFA en cinco ocasiones.
-            Máximo Goleador: Es el máximo goleador de la historia de la Liga de Campeones de la UEFA y del Real Madrid.
+
+            <Label Text="Logros y Reconocimientos" />
+            <Label Text="Balón de Oro: Ha ganado el Balón de Oro en cinco ocasiones (2008, 2013, 2014, 2016, 2017)." />
+            <Label Text="Champions League: Ha ganado la Liga de Campeones de la UEFA en cinco ocasiones." />
+            <Label Text="Máximo Goleador: Es el máximo goleador de la historia de la Liga de Campeones de la UEFA y del Real Madrid.
             Títulos Nacionales: Ha ganado ligas en Inglaterra, España e Italia."
 
                    FontSize="14"
