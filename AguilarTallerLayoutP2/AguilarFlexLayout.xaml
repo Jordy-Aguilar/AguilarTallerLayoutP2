@@ -2,18 +2,57 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AguilarTallerLayoutP2.AguilarFlexLayout"
-             Title="Jordy Aguilar (Flex)">
-    <FlexLayout Direction="Column"
-            AlignItems="Center"
-            JustifyContent="SpaceEvenly">
-        <Label Text="FlexLayout in Action" />
-        <Button Text="Button" />
-        <Label Text="Another Label" />
+             Title="Jordy Aguilar (Flex)"
+             BackgroundColor="Black">
+    <FlexLayout Direction="Column" 
+                AlignItems="Center" 
+                JustifyContent="Center">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+            <Button ImageSource="thumb_1920_1343747.png" 
+                    WidthRequest="200" 
+                    HeightRequest="200" 
+                    VerticalOptions="Center"
+                    Margin="10,0,0,20"
+                    Clicked="BotonFlexLayout_Clicked"
+                    BackgroundColor="Transparent"/>
+            <Label Text="Jordy" 
+                   VerticalOptions="Center" 
+                   Padding="10,0"
+                   TextColor="White" 
+                   FontFamily="Arial" 
+                   FontAttributes="Bold"/>
+        </StackLayout>
 
-        <Button
-x:Name="BotonFlexLayout"
-Text="Ir a la cuarta pagina (AbsoluteLayout)." 
-Clicked="BotonFlexLayout_Clicked"/>
-        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+            <Button ImageSource="thumb_1920_605592.png" 
+                    WidthRequest="200" 
+                    HeightRequest="200" 
+                    VerticalOptions="Center"
+                    Margin="10,0,0,20"
+                    Clicked="BotonFlexLayout_Clicked"
+                    BackgroundColor="Transparent"/>
+            <Label Text="Aguilar" 
+                   VerticalOptions="Center" 
+                   Padding="10,0"
+                   TextColor="White" 
+                   FontFamily="Arial" 
+                   FontAttributes="Bold"/>
+        </StackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
+            <Button ImageSource="thumb_1920_1327390.png" 
+                    WidthRequest="200" 
+                    HeightRequest="200" 
+                    VerticalOptions="Center"
+                    Margin="10,0,0,20"
+                    Clicked="BotonFlexLayout_Clicked"
+                    BackgroundColor="Transparent"/>
+            <Label Text="Layouts" 
+                   VerticalOptions="Center" 
+                   Padding="10,0"
+                   TextColor="White" 
+                   FontFamily="Arial" 
+                   FontAttributes="Bold"/>
+        </StackLayout>
     </FlexLayout>
 </ContentPage>
