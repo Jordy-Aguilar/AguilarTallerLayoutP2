@@ -9,15 +9,14 @@
                 JustifyContent="Center">
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
             <Button ImageSource="thumb_1920_1343747.png" 
-                    WidthRequest="200" 
-                    HeightRequest="200" 
+                    WidthRequest="250" 
+                    HeightRequest="250" 
                     VerticalOptions="Center"
-                    Margin="10,0,0,20"
+                    Margin="10,0,0,10"
                     Clicked="BotonFlexLayout_Clicked"
                     BackgroundColor="Transparent"/>
             <Label Text="Jordy" 
                    VerticalOptions="Center" 
-                   Padding="10,0"
                    TextColor="White" 
                    FontFamily="Arial" 
                    FontAttributes="Bold"/>
@@ -25,15 +24,14 @@
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
             <Button ImageSource="thumb_1920_605592.png" 
-                    WidthRequest="200" 
-                    HeightRequest="200" 
+                    WidthRequest="250" 
+                    HeightRequest="250" 
                     VerticalOptions="Center"
-                    Margin="10,0,0,20"
+                    Margin="10,0,0,10"
                     Clicked="BotonFlexLayout_Clicked"
                     BackgroundColor="Transparent"/>
             <Label Text="Aguilar" 
                    VerticalOptions="Center" 
-                   Padding="10,0"
                    TextColor="White" 
                    FontFamily="Arial" 
                    FontAttributes="Bold"/>
@@ -41,10 +39,10 @@
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
             <Button ImageSource="thumb_1920_1327390.png" 
-                    WidthRequest="200" 
-                    HeightRequest="200" 
+                    WidthRequest="250" 
+                    HeightRequest="250" 
                     VerticalOptions="Center"
-                    Margin="10,0,0,20"
+                    Margin="10,0,0,10"
                     Clicked="BotonFlexLayout_Clicked"
                     BackgroundColor="Transparent"/>
             <Label Text="Layouts" 
